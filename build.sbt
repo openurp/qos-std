@@ -3,7 +3,7 @@ import org.openurp.parent.Dependencies._
 import org.beangle.tools.sbt.Sas
 
 ThisBuild / organization := "org.openurp.qos.std"
-ThisBuild / version := "0.0.21"
+ThisBuild / version := "0.0.22-SNAPSHOT"
 
 ThisBuild / scmInfo := Some(
   ScmInfo(
@@ -25,9 +25,9 @@ ThisBuild / description := "OpenURP QoS Std"
 ThisBuild / homepage := Some(url("http://openurp.github.io/qos-std/index.html"))
 
 val apiVer = "0.26.0"
-val starterVer = "0.0.21"
+val starterVer = "0.0.22-SNAPSHOT"
 val baseVer = "0.1.30"
-val evaluteVer="0.0.21-SNAPSHOT"
+val evaluteVer="0.0.22-SNAPSHOT-SNAPSHOT"
 val openurp_edu_api = "org.openurp.edu" % "openurp-edu-api" % apiVer
 val openurp_qos_api = "org.openurp.qos" % "openurp-qos-api" % apiVer
 val openurp_stater_web = "org.openurp.starter" % "openurp-starter-web" % starterVer
